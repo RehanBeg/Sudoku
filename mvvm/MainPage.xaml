@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="mvvm.MainPage">
+
+    <StackLayout>
+        <Grid Margin="1,1,1,1" ColumnSpacing="1" RowSpacing="1" BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                
+                <!-- row 1 - 1, 2 and 3 -->
+                  <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="White" />
+                    <Entry Grid.Row="0" Grid.Column="0" Text="{Binding GameCellValuesList[0]}" />
+                  <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="White" />
+                    <Entry Grid.Row="0" Grid.Column="1" Text="{Binding GameCellValuesList[1]}" />
+                  <BoxView Grid.Row="0" Grid.Column="2" BackgroundColor="White" />
+                    <Entry Grid.Row="0" Grid.Column="2" Text="{Binding GameCellValuesList[2]}" />
+                  <BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="White" />
+                    <Entry Grid.Row="1" Grid.Column="0" Text="{Binding GameCellValuesList[9]}" />
+                  <BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="White" />
+                    <Entry Grid.Row="1" Grid.Column="1" Text="{Binding GameCellValuesList[10]}" />
+                  <BoxView Grid.Row="1" Grid.Column="2" BackgroundColor="White" />
+                    <Entry Grid.Row="1" Grid.Column="2" Text="{Binding GameCellValuesList[11]}" />
+                  <BoxView Grid.Row="2" Grid.Column="0" BackgroundColor="White" />
+                    <Entry Grid.Row="2" Grid.Column="0" Text="{Binding GameCellValuesList[18]}" />
+                  <BoxView Grid.Row="2" Grid.Column="1" BackgroundColor="White" />
+                    <Entry Grid.Row="2" Grid.Column="1" Text="{Binding GameCellValuesList[19]}" />
+                  <BoxView Grid.Row="2" Grid.Column="2" BackgroundColor="White" />
+                    <Entry Grid.Row="2" Grid.Column="2" Text="{Binding GameCellValuesList[20]}" />
+
+                  <BoxView Grid.Row="0" Grid.Column="3" BackgroundColor="White" />
+                    <Entry Grid.Row="0" Grid.Column="3" Text="{Binding GameCellValuesList[3]}" />
+                  <BoxView Grid.Row="0" Grid.Column="4" BackgroundColor="White" />
+                    <Entry Grid.Row="0" Grid.Column="4" Text="{Binding GameCellValuesList[4]}" />
+                  <BoxView Grid.Row="0" Grid.Column="5" BackgroundColor="White" />
+                    <Entry Grid.Row="0" Grid.Column="5" Text="{Binding GameCellValuesList[5]}" />
+                  <BoxView Grid.Row="1" Grid.Column="3" BackgroundColor="White" />
+                    <Entry Grid.Row="1" Grid.Column="3" Text="{Binding GameCellValuesList[12]}" />
+                  <BoxView Grid.Row="1" Grid.Column="4" BackgroundColor="White" />
+                    <Entry Grid.Row="1" Grid.Column="4" Text="{Binding GameCellValuesList[13]}" />
+                  <BoxView Grid.Row="1" Grid.Column="5" BackgroundColor="White" />
+                    <Entry Grid.Row="1" Grid.Column="5" Text="{Binding GameCellValuesList[14]}" />
+                  <BoxView Grid.Row="2" Grid.Column="3" BackgroundColor="White" />
+                    <Entry Grid.Row="2" Grid.Column="3" Text="{Binding GameCellValuesList[21]}" />
+                  <BoxView Grid.Row="2" Grid.Column="4" BackgroundColor="White" />
+                    <Entry Grid.Row="2" Grid.Column="4" Text="{Binding GameCellValuesList[22]}" />
+                  <BoxView Grid.Row="2" Grid.Column="5" BackgroundColor="White" />
+                    <Entry Grid.Row="2" Grid.Column="5" Text="{Binding GameCellValuesList[23]}" />
+
+                  <BoxView Grid.Row="0" Grid.Column="6" BackgroundColor="White" />
+                    <Entry Grid.Row="0" Grid.Column="6" Text="{Binding GameCellValuesList[6]}" />
+                  <BoxView Grid.Row="0" Grid.Column="7" BackgroundColor="White" />
+                    <Entry Grid.Row="0" Grid.Column="7" Text="{Binding GameCellValuesList[7]}" />
+                  <BoxView Grid.Row="0" Grid.Column="8" BackgroundColor="White" />
+                    <Entry Grid.Row="0" Grid.Column="8" Text="{Binding GameCellValuesList[8]}" />
+                  <BoxView Grid.Row="1" Grid.Column="6" BackgroundColor="White" />
+                    <Entry Grid.Row="1" Grid.Column="6" Text="{Binding GameCellValuesList[15]}" />
+                  <BoxView Grid.Row="1" Grid.Column="7" BackgroundColor="White" />
+                    <Entry Grid.Row="1" Grid.Column="7" Text="{Binding GameCellValuesList[16]}" />
+                  <BoxView Grid.Row="1" Grid.Column="8" BackgroundColor="White" />
+                    <Entry Grid.Row="1" Grid.Column="8" Text="{Binding GameCellValuesList[17]}" />
+                  <BoxView Grid.Row="2" Grid.Column="6" BackgroundColor="White" />
+                    <Entry Grid.Row="2" Grid.Column="6" Text="{Binding GameCellValuesList[24]}" />
+                  <BoxView Grid.Row="2" Grid.Column="7" BackgroundColor="White" />
+                    <Entry Grid.Row="2" Grid.Column="7" Text="{Binding GameCellValuesList[25]}" />
+                  <BoxView Grid.Row="2" Grid.Column="8" BackgroundColor="White" />
+                    <Entry Grid.Row="2" Grid.Column="8" Text="{Binding GameCellValuesList[26]}" />
+
+
+                    <!-- row 2 - 1, 2 and 3 -->
+                  <BoxView Grid.Row="3" Grid.Column="0" BackgroundColor="White" />
+                    <Entry Grid.Row="3" Grid.Column="0" Text="{Binding GameCellValuesList[27]}" />
+                  <BoxView Grid.Row="3" Grid.Column="1" BackgroundColor="White" />
+                    <Entry Grid.Row="3" Grid.Column="1" Text="{Binding GameCellValuesList[28]}" />
+                  <BoxView Grid.Row="3" Grid.Column="2" BackgroundColor="White" />
+                    <Entry Grid.Row="3" Grid.Column="2" Text="{Binding GameCellValuesList[29]}" />
+                  <BoxView Grid.Row="4" Grid.Column="0" BackgroundColor="White" />
+                    <Entry Grid.Row="4" Grid.Column="0" Text="{Binding GameCellValuesList[36]}" />
+                  <BoxView Grid.Row="4" Grid.Column="1" BackgroundColor="White" />
+                    <Entry Grid.Row="4" Grid.Column="1" Text="{Binding GameCellValuesList[37]}" />
+                  <BoxView Grid.Row="4" Grid.Column="2" BackgroundColor="White" />
+                    <Entry Grid.Row="4" Grid.Column="2" Text="{Binding GameCellValuesList[38]}" />
+                  <BoxView Grid.Row="5" Grid.Column="0" BackgroundColor="White" />
+                    <Entry Grid.Row="5" Grid.Column="0" Text="{Binding GameCellValuesList[45]}" />
+                  <BoxView Grid.Row="5" Grid.Column="1" BackgroundColor="White" />
+                    <Entry Grid.Row="5" Grid.Column="1" Text="{Binding GameCellValuesList[46]}" />
+                  <BoxView Grid.Row="5" Grid.Column="2" BackgroundColor="White" />
+                    <Entry Grid.Row="5" Grid.Column="2" Text="{Binding GameCellValuesList[47]}" />
+
+                  <BoxView Grid.Row="3" Grid.Column="3" BackgroundColor="White" />
+                    <Entry Grid.Row="3" Grid.Column="3" Text="{Binding GameCellValuesList[30]}" />
+                  <BoxView Grid.Row="3" Grid.Column="4" BackgroundColor="White" />
+                    <Entry Grid.Row="3" Grid.Column="4" Text="{Binding GameCellValuesList[31]}" />
+                  <BoxView Grid.Row="3" Grid.Column="5" BackgroundColor="White" />
+                    <Entry Grid.Row="3" Grid.Column="5" Text="{Binding GameCellValuesList[32]}" />
+                  <BoxView Grid.Row="4" Grid.Column="3" BackgroundColor="White" />
+                    <Entry Grid.Row="4" Grid.Column="3" Text="{Binding GameCellValuesList[39]}" />
+                  <BoxView Grid.Row="4" Grid.Column="4" BackgroundColor="White" />
+                    <Entry Grid.Row="4" Grid.Column="4" Text="{Binding GameCellValuesList[40]}" />
+                  <BoxView Grid.Row="4" Grid.Column="5" BackgroundColor="White" />
+                    <Entry Grid.Row="4" Grid.Column="5" Text="{Binding GameCellValuesList[41]}" />
+                  <BoxView Grid.Row="5" Grid.Column="3" BackgroundColor="White" />
+                    <Entry Grid.Row="5" Grid.Column="3" Text="{Binding GameCellValuesList[48]}" />
+                  <BoxView Grid.Row="5" Grid.Column="4" BackgroundColor="White" />
+                    <Entry Grid.Row="5" Grid.Column="4" Text="{Binding GameCellValuesList[49]}" />
+                  <BoxView Grid.Row="5" Grid.Column="5" BackgroundColor="White" />
+                    <Entry Grid.Row="5" Grid.Column="5" Text="{Binding GameCellValuesList[50]}" />
+
+                  <BoxView Grid.Row="3" Grid.Column="6" BackgroundColor="White" />
+                    <Entry Grid.Row="3" Grid.Column="6" Text="{Binding GameCellValuesList[33]}" />
+                  <BoxView Grid.Row="3" Grid.Column="7" BackgroundColor="White" />
+                    <Entry Grid.Row="3" Grid.Column="7" Text="{Binding GameCellValuesList[34]}" />
+                  <BoxView Grid.Row="3" Grid.Column="8" BackgroundColor="White" />
+                    <Entry Grid.Row="3" Grid.Column="8" Text="{Binding GameCellValuesList[35]}" />
+                  <BoxView Grid.Row="4" Grid.Column="6" BackgroundColor="White" />
+                    <Entry Grid.Row="4" Grid.Column="6" Text="{Binding GameCellValuesList[42]}" />
+                  <BoxView Grid.Row="4" Grid.Column="7" BackgroundColor="White" />
+                    <Entry Grid.Row="4" Grid.Column="7" Text="{Binding GameCellValuesList[43]}" />
+                  <BoxView Grid.Row="4" Grid.Column="8" BackgroundColor="White" />
+                    <Entry Grid.Row="4" Grid.Column="8" Text="{Binding GameCellValuesList[44]}" />
+                  <BoxView Grid.Row="5" Grid.Column="6" BackgroundColor="White" />
+                    <Entry Grid.Row="5" Grid.Column="6" Text="{Binding GameCellValuesList[51]}" />
+                  <BoxView Grid.Row="5" Grid.Column="7" BackgroundColor="White" />
+                    <Entry Grid.Row="5" Grid.Column="7" Text="{Binding GameCellValuesList[52]}" />
+                  <BoxView Grid.Row="5" Grid.Column="8" BackgroundColor="White" />
+                    <Entry Grid.Row="5" Grid.Column="8" Text="{Binding GameCellValuesList[53]}" />
+
+
+                    <!-- row 3 - 1, 2 and 3 -->
+                  <BoxView Grid.Row="6" Grid.Column="0" BackgroundColor="White" />
+                    <Entry Grid.Row="6" Grid.Column="0" Text="{Binding GameCellValuesList[54]}" />
+                  <BoxView Grid.Row="6" Grid.Column="1" BackgroundColor="White" />
+                    <Entry Grid.Row="6" Grid.Column="1" Text="{Binding GameCellValuesList[55]}" />
+                  <BoxView Grid.Row="6" Grid.Column="2" BackgroundColor="White" />
+                    <Entry Grid.Row="6" Grid.Column="2" Text="{Binding GameCellValuesList[56]}" />
+                  <BoxView Grid.Row="7" Grid.Column="0" BackgroundColor="White" />
+                    <Entry Grid.Row="7" Grid.Column="0" Text="{Binding GameCellValuesList[63]}" />
+                  <BoxView Grid.Row="7" Grid.Column="1" BackgroundColor="White" />
+                    <Entry Grid.Row="7" Grid.Column="1" Text="{Binding GameCellValuesList[64]}" />
+                  <BoxView Grid.Row="7" Grid.Column="2" BackgroundColor="White" />
+                    <Entry Grid.Row="7" Grid.Column="2" Text="{Binding GameCellValuesList[65]}" />
+                  <BoxView Grid.Row="8" Grid.Column="0" BackgroundColor="White" />
+                    <Entry Grid.Row="8" Grid.Column="0" Text="{Binding GameCellValuesList[72]}" />
+                  <BoxView Grid.Row="8" Grid.Column="1" BackgroundColor="White" />
+                    <Entry Grid.Row="8" Grid.Column="1" Text="{Binding GameCellValuesList[73]}" />
+                  <BoxView Grid.Row="8" Grid.Column="2" BackgroundColor="White" />
+                    <Entry Grid.Row="8" Grid.Column="2" Text="{Binding GameCellValuesList[74]}" />
+
+                  <BoxView Grid.Row="6" Grid.Column="3" BackgroundColor="White" />
+                    <Entry Grid.Row="6" Grid.Column="3" Text="{Binding GameCellValuesList[57]}" />
+                  <BoxView Grid.Row="6" Grid.Column="4" BackgroundColor="White" />
+                    <Entry Grid.Row="6" Grid.Column="4" Text="{Binding GameCellValuesList[58]}" />
+                  <BoxView Grid.Row="6" Grid.Column="5" BackgroundColor="White" />
+                    <Entry Grid.Row="6" Grid.Column="5" Text="{Binding GameCellValuesList[59]}" />
+                  <BoxView Grid.Row="7" Grid.Column="3" BackgroundColor="White" />
+                    <Entry Grid.Row="7" Grid.Column="3" Text="{Binding GameCellValuesList[66]}" />
+                  <BoxView Grid.Row="7" Grid.Column="4" BackgroundColor="White" />
+                    <Entry Grid.Row="7" Grid.Column="4" Text="{Binding GameCellValuesList[67]}" />
+                  <BoxView Grid.Row="7" Grid.Column="5" BackgroundColor="White" />
+                    <Entry Grid.Row="7" Grid.Column="5" Text="{Binding GameCellValuesList[68]}" />
+                  <BoxView Grid.Row="8" Grid.Column="3" BackgroundColor="White" />
+                    <Entry Grid.Row="8" Grid.Column="3" Text="{Binding GameCellValuesList[75]}" />
+                  <BoxView Grid.Row="8" Grid.Column="4" BackgroundColor="White" />
+                    <Entry Grid.Row="8" Grid.Column="4" Text="{Binding GameCellValuesList[76]}" />
+                  <BoxView Grid.Row="8" Grid.Column="5" BackgroundColor="White" />
+                    <Entry Grid.Row="8" Grid.Column="5" Text="{Binding GameCellValuesList[77]}" />
+
+                  <BoxView Grid.Row="6" Grid.Column="6" BackgroundColor="White" />
+                    <Entry Grid.Row="6" Grid.Column="6" Text="{Binding GameCellValuesList[60]}" />
+                  <BoxView Grid.Row="6" Grid.Column="7" BackgroundColor="White" />
+                    <Entry Grid.Row="6" Grid.Column="7" Text="{Binding GameCellValuesList[61]}" />
+                  <BoxView Grid.Row="6" Grid.Column="8" BackgroundColor="White" />
+                    <Entry Grid.Row="6" Grid.Column="8" Text="{Binding GameCellValuesList[62]}" />
+                  <BoxView Grid.Row="7" Grid.Column="6" BackgroundColor="White" />
+                    <Entry Grid.Row="7" Grid.Column="6" Text="{Binding GameCellValuesList[69]}" />
+                  <BoxView Grid.Row="7" Grid.Column="7" BackgroundColor="White" />
+                    <Entry Grid.Row="7" Grid.Column="7" Text="{Binding GameCellValuesList[70]}" />
+                  <BoxView Grid.Row="7" Grid.Column="8" BackgroundColor="White" />
+                    <Entry Grid.Row="7" Grid.Column="8" Text="{Binding GameCellValuesList[71]}" />
+                  <BoxView Grid.Row="8" Grid.Column="6" BackgroundColor="White" />
+                    <Entry Grid.Row="8" Grid.Column="6" Text="{Binding GameCellValuesList[78]}" />
+                  <BoxView Grid.Row="8" Grid.Column="7" BackgroundColor="White" />
+                    <Entry Grid.Row="8" Grid.Column="7" Text="{Binding GameCellValuesList[79]}" />
+                  <BoxView Grid.Row="8" Grid.Column="8" BackgroundColor="White" />
+                    <Entry Grid.Row="8" Grid.Column="8" Text="{Binding GameCellValuesList[80]}" />
+            </Grid>
+    </StackLayout>
+
+</ContentPage>

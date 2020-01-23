@@ -1,0 +1,12 @@
+/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.Tests/bin/Debug/mvvm.Tests.dll
+/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.Tests/bin/Debug/mvvm.Tests.pdb
+/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.Tests/bin/Debug/mvvm.dll
+/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.Tests/bin/Debug/nunit.framework.dll
+/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.Tests/bin/Debug/Xamarin.UITest.dll
+/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.Tests/bin/Debug/mvvm.pdb
+/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.Tests/bin/Debug/nunit.framework.xml
+/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.Tests/bin/Debug/Xamarin.UITest.xml
+/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.Tests/obj/Debug/mvvm.Tests.csprojAssemblyReference.cache
+/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.Tests/obj/Debug/mvvm.Tests.csproj.CopyComplete
+/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.Tests/obj/Debug/mvvm.Tests.dll
+/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.Tests/obj/Debug/mvvm.Tests.pdb

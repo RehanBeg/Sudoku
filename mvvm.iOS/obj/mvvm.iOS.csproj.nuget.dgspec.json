@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.iOS/mvvm.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.iOS/mvvm.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.iOS/mvvm.iOS.csproj",
+        "projectName": "mvvm.iOS",
+        "projectPath": "/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.iOS/mvvm.iOS.csproj",
+        "packagesPath": "/Users/Rehan/.nuget/packages/",
+        "outputPath": "/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/Rehan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm/mvvm.csproj": {
+                "projectPath": "/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm/mvvm.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.709249, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm/mvvm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm/mvvm.csproj",
+        "projectName": "mvvm",
+        "projectPath": "/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm/mvvm.csproj",
+        "packagesPath": "/Users/Rehan/.nuget/packages/",
+        "outputPath": "/Users/Rehan/Dropbox/Juventus_Technikerschule_HF/5. Semester/Software Engineering Mobile/Visual Studio Projekte/mvvmSudoku/mvvm/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Rehan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.709249, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
